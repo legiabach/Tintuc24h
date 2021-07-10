@@ -1,0 +1,36 @@
+h1, h2, h3{
+    color:black
+}
+a{
+    font-size: 150%;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style:oblique;
+    line-height: 50px;
+    
+    
+}
+#noidung {
+line-height: 30px;
+border:violet solid 10px;
+height: 300px;
+width: 300px;
+background:grey;
+
+}
+nav a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ;
+} 
+body{
+    
+    background:url(tonyandremon.jpg);
+    
+    
+
+}
+nav{
+    border:red solid 5px;
+    width:300px
+
+}
