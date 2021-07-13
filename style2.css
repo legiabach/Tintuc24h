@@ -1,0 +1,24 @@
+body{
+    background: url(trungthu.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 90%;
+    height: 100%;
+}
+#tho{
+   font-size: 30;
+    border: white dashed 2px;
+    text-align: right;
+    width: 400px;
+    background: cornflowerblue;
+    color:white;
+    margin-left: 900px
+}
+
+h1{
+    color: white;
+    text-align: right;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50;
+}
