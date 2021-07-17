@@ -1,0 +1,17 @@
+#left{
+    background:white;
+    float: left
+}
+#right{
+    background: grey;
+    float: right
+}
+header{
+    background: green;
+    color:white;
+}
+h2{
+    color: green;
+}
+
+
