@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <title>
+            Bài 13
+        </title>
+    </head>
+    <body>
+        <form>
+            <h1 style="color: rgb(16, 16, 95);"align="center">Đăng ký du lịch</h1>
+            <table border="1" align="center" style="background:rgb(255, 255, 117) ; color:rgb(1, 1, 255)">
+                <tr>
+                    <td>
+                        <label>Họ và tên</label>
+                    </td>
+                    <td>
+                        <input type="text" name="hovaten"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+                            Địa chỉ
+                        </label>
+                    </td>
+                    <td>
+                        <input type="text" name="diachi"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <label>Điện thoại</label>
+                    </td>
+                    <td>
+                        <input type="text" name="dienthoai"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Khách Việt Nam</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="khachvietnam"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Chọn tour
+                    </td>
+                    <td>
+                        <select style="width:177px" name="chontour" id="chontour">
+                        <option value="bmt-gl-kt">Buôn mê thuột-Gia lai-Kontum</option>
+                        <option value="vt-cm-kg">Vũng tàu-Cà mau-Kiên giang</option>
+                        <option value="hcm-ct-ld">Hồ Chí Minh-Cần thơ-Lâm đồng </option>
+                        <option value="tn-bt-dn">Tây ninh-Bình thuận-Đà nẵng</option>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Phương tiện</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="phuongtien" value="Maybay"/>
+                        <label>Máy bay</label>
+                        <input type="radio" name="phuongtien" value="Oto"/>
+                        <label>Ô tô</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <fieldset style="border-color: red;">
+                            <legend style="color: red;">Số lượng đoàn khách</legend>
+                            <label>Người lớn</label> <input type="text" name="nguoilon">
+                            <label>Trẻ em</label> <input type="text" name="treem">
+
+                        </fieldset>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Ghi chú thêm</label>
+                    </td>
+                    <td>
+                     <textarea name="ghichuthem">Có 2 trẻ em dưới 6 tuổi 
+                    Có 2 người ăn chay</textarea>  
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Đăng nhập">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="color: rgb(231, 95, 117);">
+                        Chúc mừng bạn đã đăng ký thành công!!!
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
