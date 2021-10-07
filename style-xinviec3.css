@@ -1,0 +1,59 @@
+main{
+    
+    color:purple
+}
+header{
+    background:url(nen.png);
+    color:purple;
+}
+#icon{
+    width: 20px;
+    height: 20px;
+}
+#icon2{
+    width: 20px;
+    height: 20px;
+}
+#icon11{
+    width: 20px;
+    height: 20px;
+}
+#icon12{
+    width: 20px;
+    height: 20px;
+}
+#icon13{
+    width: 20px;
+    height: 20px;
+}
+#icon14{
+    width: 20px;
+    height: 20px;
+}
+#p1{
+    float:left;
+    
+}
+#p2{
+    float:right;
+}
+#avtmon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+#t1{
+    float:left;
+    width: 70%;
+    background:url(vutru.png);
+}
+#t2{
+    float:right;
+    width: 30%;
+    background:url(vutru.png);
+}
+hr{
+    border: 5px solid purple ;
+    width:60px;
+    margin: 5px
+}
