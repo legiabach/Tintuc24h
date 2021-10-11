@@ -1,10 +1,15 @@
 main{
     
-    color:blue
+    color:blue;
+
+}
+body{
+    background-image: url(bg.jpg);
 }
 header{
-    background:skyblue;
+
     color:blue;
+    border-radius: 10px;
 }
 #icon{
     width: 20px;
@@ -38,8 +43,8 @@ header{
     float:right;
 }
 #avthuong{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
 }
 #th1{
@@ -56,4 +61,10 @@ hr{
     border: 5px solid blue ;
     width:60px;
     margin: 5px
+}
+main{
+    padding: 20px 300px;
+}
+table{
+    padding: 20px 300px;
 }
