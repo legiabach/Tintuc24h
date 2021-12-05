@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <label>Bài 1:</label>
+        <form>
+            <div class="form-floating mb-3 mt-3">
+                <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+                <label for="email">Email</label>
+            </div>
+            <div class="form-floating mb-3 mt-3">
+              <input type="password" class="form-control" id="pass" placeholder="Enter password" name="pass">
+              <label for="pass">Password</label>
+          </div>
+          <button type="button" class="btn btn-info btn-outline-success">Submit</button>
+          <br/><br/>
+          <div class="form-floating">
+              <textarea class="form-control" id="comment" name="text" placeholder="Comment goes here"></textarea>
+              <label for="comment">Comments</label>
+          </div>
+          <br/><br/>
+          <div class="form-floating">
+              <select class="form-select" id="sel1" name="sellist">
+                  <option>Mầm non</option>
+                  <option>Tiểu học</option>
+                  <option>Trung học cơ sở</option>
+                  <option>Trung học phổ thông</option>                
+              </select>
+              <label for="sel1" class="form-label">Select list (select one):</label>
+          </div>
+          
+        </form>
+        <label>Bài 2:</label>
+        <form action="/action_page.php" class="was-validated">
+            <div class="mb-3 mt-3">
+                <label for="uname" class="form-label">Username:</label>
+                <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Xin vui lòng nhập lại.</div>
+            </div>
+            <div class="mb-3">
+                <label for="pwd" class="form-label">Password:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Xin vui lòng nhập lại.</div>
+            </div>
+            <div class="form-check mb-3">
+                <input class="form-check-label" type="checkbox" id="myCheck" name="remember" required>
+                <label class="form-check-label" for="myCheck">Tôi không phải robot</label>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Check this checkbox to continue.</div>
+
+            </div>
+            <button type="submit" class="btn btn-outline-primary">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
